@@ -14,6 +14,13 @@
     --texto:white;
 }
 
+/*Configurar a imagem de fundo e centralizar os textos na tela*/
+body{
+    background-image: url('imagens/bg.png');
+    text-align: center;
+    color: var(--texto);
+}
+
 header{
     background-color:var(--corbarranavegacao);
     text-align: center;
@@ -38,3 +45,4 @@ a{
     color: var(--texto);
     font-weight: bolder;
 }
+
