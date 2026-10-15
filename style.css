@@ -1,0 +1,15 @@
+/*resete das margins e paddings*/
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*definição das variáveis do css*/
+:root{
+    --nome-variavel: 'valor';
+    --corbox: rgba(37, 37, 37, 0.8);
+    --corbarranavegacao: rgb(30, 31, 34);
+    --subtituloebotoes: rgb(255, 174, 0);
+    --texto:white;
+}
+/*add, commit e push*/
