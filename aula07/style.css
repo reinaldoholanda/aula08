@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box ;
+}
+/*Definição das variáveis de CSS para toda aplicação com root que é raiz, todas as classes, todas a tags e todas ids terão acesso a essa variável, posso definir apenas para uma parte, pode mas o mais comum é para todos,  o padrão de nomenclatura no root é --nome-variavel e claro não usar nomes */
+:root{
+    --cor-fontes:rgb(196, 207, 247);
+    --cor-fundo:rgb(238, 239, 241);
+    --cor-botoes:rgb(53, 86, 205);
+    --cor-destaque: rgb(5, 7, 113);
+    --cor-card:rgb(154, 156, 163);
+}
+h1{
+    color: var(--cor-destaque);
+}
+
+body{
+    background-color: var(--cor-fundo);
+    background-image: url(black-texture.jpg);
+    background-repeat: repeat;
+    background-size: cover; /*ele vai esticar a imagem na horizontal*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /*Ficará sempre 100% da altura do meu navegador*/
+    }
+
+.link-bio{
+    background-color: var(--cor-card);
+    border-radius: 20px;
+    width: 350px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+        }
+
+.link-bio img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.link-bio a{
+    background-color: var(--cor-botoes);
+    width: 90%;
+    text-align: center;
+    padding: 20px;
+    border-radius: 40px;
+    margin: 10px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.link-bio h1{
+    color:var(--cor-botoes);
+    margin: 10px;
+}
+
+.link-bio p{
+    text-align: center;
+}
+
+.link-bio a:hover{
+    background-color: var(--cor-destaque);
+    color: var(--cor-fontes);
+}
+
+/*utilizada para quando o mouse passa por cima dela*/
+    /*

@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    }
+
+div {
+    border: 5px solid rgb(0,255,217);
+    }
+
+.classe1{
+    background-color: blue;
+    margin: 20px; /*adicionou uma borda geral ao redor de 20px*/
+    padding: 20px;
+    }
+
+.classe2{
+    background-color: rgba(255, 0, 204, 0.257);
+    margin: 20px 10px;
+    padding: 20px 10px;
+
+    /*topo e base com 10px e laterais com 20px*/
+        }
+
+.classe3{
+    background-color: rgb(255, 0, 0);
+    margin: 5px 15px 20px 10px;
+    padding: 5px 15px 20px 10px;
+    
+    /*lateral esquerda 10px, 
+    lateral direita 15px
+    topo com 5px
+    base com 20px*/
+        }
+
+h1, p{
+    border: 1px solid#ffff;
+}
+
+h1{
+    padding: 15px 0px;
+
+}
+img{
+    display: inline;
+    width: 200px;
+    margin: 10px;
+
+    /*display block, um elemento por linha
+    display inline, os elementos na mesma linha
+    */
+}
+
+.tamanho{
+    background-color: beige;
+    width: 800px; /*largura*/
+
+    /*altura(height) responsiva*/
+}
+
+
+a{
+    margin: 10px
+}
+/*imagens tem o display nativamente inline, nativamente os textos da ancoras são posicionados inline, se eu posicionar display block ele vai ficar um abaixo do outro */
+
+.esquerda{
+    background-color: #ffffff;
+    color: black;
+    height: 200px;
+    width: 400px;
+    display: inline-block; 
+    
+    /* com display: inline nativamente os elementos esquerda e direita devem deixar um do lado da outra, porém ele não aceita a altura e largura, se eu usar o display inline block ele vai ajustar de acordo com altura e largura*/
+}
+
+.direita{
+    background-color: #ffffff;
+    color: black;
+    height: 200px;
+    width: 400px;
+    display: inline-block; 
+
+}
+
+/*para combinar classes você usa as duas no html, exemplo     <div class="esquerda">, usando display: none*/
+
+.apagar{
+    display: none;
+}
+
+.bordaredonda{
+    border-radius: 40px;
+}

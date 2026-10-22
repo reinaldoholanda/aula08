@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(128, 55, 0);
+    color: white;
+}
+p{
+    text-align: justify;
+    color: white;
+    font-size: 18px;
+    text-align: justify;
+}
+li{
+    color: rgb(224, 224, 183);
+    font-size: 18px;
+    text-align: left;
+}
+
+h1{
+    color: rgb(255, 255, 0);
+    font-size: 32px;
+    text-align: center;
+}
+
+/*alinhamento */
+
+h2{
+    color: rgb(231, 231, 160);
+    font-size: 24px;
+    text-align: center;
+    font-style: italic;
+}
+
+ul{
+    list-style-type: square;
+}
+
+/*Seletores CSS */

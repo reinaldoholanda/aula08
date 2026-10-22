@@ -1,0 +1,18 @@
+.listas{
+    border-radius: 20px;
+    border: 2px solid rgb(165, 171, 170);
+    padding: 20px;
+    margin: 15px;
+    display: inline-block; 
+    width: 500px;
+    height: 400px;
+    vertical-align: bottom;
+            }
+
+
+/*Centralizar uma div que não tem o tamanho do navegador, utiliza display: block e na margin: 15px auto*/
+
+.conteiner{
+    width: 1220px;
+    margin: 0 auto;
+}

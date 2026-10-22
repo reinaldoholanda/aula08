@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Index</title>
+</head>
+<body>
+
+    <form>
+        <label for="nome">Nome</label>
+        <input type="text" name="" id="nome">
+        <br>
+        <label for="senha">Senha</label>
+        <input type="password" name="" id="senha">
+        <br>
+                
+        <label for="">Pergunta para o grupo de opções abaixo:</label><br>
+        <fieldset><!--Cria um grupo de sessões desenhando ao redor-->
+
+            <!-- Grupo de opções par a selecionar 1 dentre muitos, input do tipo rádio-->
+            <input type="radio" name="grupo" id="um" value="Opção 01">
+            <label for="um">Opção 01</label>
+            <br>
+            <input type="radio" name="grupo" id="dois" valeu="Opção 02">
+            <label for="dois">Opção 02</label>
+            <br>
+            <input type="radio" name="grupo" id="tres" valeu="Opção 03">
+            <label for="tres">Opção 03</label>
+            <br>
+            <input type="radio" name="grupo" id="quatro" valeu="Opção 04">
+            <label for="quatro">Opção 04</label>
+            </fieldset>
+
+        </fieldset>
+        
+            <p></p>
+            <label for="">Pergunta para o grupo de mútiplas opções abaixo:</label><br>
+
+            <!-- Grupo de opções par a selecionar 1 dentre muitos, input do tipo rádio-->
+            <input type="checkbox" name="grupo2" id="um" value="Opção 01">
+            <label for="um">Opção 01</label>
+            <br>
+            <input type="checkbox" name="grupo2" id="dois" valeu="Opção 02">
+            <label for="dois">Opção 02</label>
+            <br>
+            <input type="checkbox" name="grupo2" id="tres" valeu="Opção 03">
+            <label for="tres">Opção 03</label>
+            <br>
+            <input type="checkbox" name="grupo2" id="quatro" valeu="Opção 04">
+            <label for="quatro">Opção 04</label>
+            <br>
+            <br>
+            </fieldset>
+        
+            <!-- Select utuilizando um menu suspenso para exibir e permitir a seleção quando existem muitas opções -->
+            <label for="estado"> Estado</label>
+            <select name="" id="estado">
+                <option value="padrão" default selected>padrão</option> <!--Palavra padrão que vai aparecer-->
+                <option value="AM">AM</option>
+                <option value="CE">CE</option>
+                <option value="PB">PB</option>
+                <option value="RN">RN</option>
+                <option value="PE" disabled >PE</option> <!-- tem mais tá faltando -->
+            </select>
+
+            <!--Um campo de texarea é para um texto maior com uma barra de scrool vertical-->
+            <br>
+            <label for="campotexto">Faça seu comentário</label><br>
+            <textarea name="" id="" cols="60" rows="20" maxlength="10" placeholder="Digite seu text aqui"></textarea> <!--60 colunas e 20 linhas-->
+            <!-- Limitação de caracteres com maxlenght-->
+    </form>
+</body>
+</html>

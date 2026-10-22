@@ -1,0 +1,42 @@
+/*
+footer{
+    color: yellow;
+}
+*/
+h1{
+    font-size: 30 px; /* pixel não é responsível, em em, vh, vw e % são medidas responsivas */
+    color: red;
+    /* cores nomeadas, RGB e hexadecimais */
+    font-style: italic;
+    font-weight: 100;
+}
+
+/*alinhamento */
+
+h2{
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+}
+
+h4{
+    text-align: right; 
+}
+body{
+    background-color: green;
+    color: white;
+}
+
+main{
+    background-color:rgb(172,116,116);
+    color: rgb(53,1,1);
+}
+
+/*Seletores de TAG */
+
+/*tag*/
+li {
+    color: chartreuse;
+}

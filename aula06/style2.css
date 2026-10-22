@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+    border: 5px solid rgb(0,255, 217);
+    margin: 20px;
+    padding: 20px;
+    background-color: blue;
+    color: aliceblue;
+    width: 150px;
+    height: 100px;
+}
+
+main{
+    background-color: rgb(0,0,0);
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-around; /*space-around divide o espaço*/
+    height: 400px;
+    /*para o sentido da linha o align-itens faz o alinhamento vertical e o justify-content faz o alinhamento horizontal*/
+}
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*alinhamento do item*/
+    justify-content: center;
+    background-color: violet;
+    height: 2000px;
+}
+
+.diferente{
+    align-self: baseline;
+    flex-grow: 2;
+
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 01</title>
+</head>
+<body>
+    <form>
+        <label for="nome">Digite seu Nome</label>
+        <input type="text" name="" id="nome">
+        <br>
+        <label for="email">Digite seu E-mail</label>
+        <input type="email" name="" id="email" placeholder="Digite aqui seu e-mail">
+        <br>
+        <br>
+            <label for="genero">Escolha um gênero:</label><br>
+
+            <!-- Grupo de opções par a selecionar 1 dentre muitos, input do tipo rádio-->
+            <input type="radio" name="genero" id="masculino" value="masculino">
+            <label for="masculino">Masculino</label>
+            <br>
+
+            <input type="radio" name="genero" id="feminino" valeu="feminino">
+            <label for="feminino">Feminino</label>
+            <br>
+            <input type="radio" name="genero" id="outro" valeu="outro">
+            <label for="outro">Prefiro não escolher</label>
+            <br>
+     
+            <p></p>
+               <label for="unidade">Escolha a unidade de interesse:</label><br>
+
+            <!-- Grupo de opções par a selecionar 1 dentre muitos, input do tipo rádio-->
+            <input type="checkbox" name="unidade" id="fortaleza" value="fortaleza">
+            <label for="fortaleza">Fortaleza</label>
+            <br>
+            <input type="checkbox" name="unidade" id="caucaia" valeu="caucaia">
+            <label for="caucaia">Caucaia</label>
+            <br>
+            <input type="checkbox" name="unidade" id="eusebio" valeu="eusebio">
+            <label for="eusebio">Eusébio</label>
+            <br>
+            <br>
+            <br>
+            <label for="cargo"> Cargo de Interesse</label>
+            <select name="" id="cargo">
+                <option value="padrão" default selected>padrão</option> <!--Palavra padrão que vai aparecer-->
+                <option value="pessoadesenvolvedora">Pessoa Desenvolvedora</option>
+                <option value="analisgadesistemas">Analista de Sistemas</option>
+                <option value="adiministradorabd">Administrador(a) de Banco de Dados</option>
+                <option value="testador">Testador</option>
+            </select>
+
+            <br>
+            <!--Um campo de texarea é para um texto maior com uma barra de scrool vertical-->
+            <br>
+            <label for="campotexto">Faça sua descrição aqui abaixo</label><br>
+            <textarea name="" id="" cols="30" rows="10" maxlength="1000" placeholder="Digite seu text aqui"></textarea> <!--60 colunas e 20 linhas-->
+            <!-- Limitação de caracteres com maxlenght-->
+             <br><button type="submit">Enviar</button>
+
+    </form>
+</body>
+</html>

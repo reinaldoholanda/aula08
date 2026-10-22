@@ -1,0 +1,34 @@
+
+
+/* lista - mais de uma tag recebe as mesmas carcterísticas*/
+h2, h3,h4{
+    color: darkmagenta;
+}
+/*o que diferente é estilizado com o seletor de tag*/
+h4{
+    font-style: italic;
+}
+/*afiliação*/
+ul li{
+    color: red;
+}
+
+article p{
+    color: red;
+}
+
+/*Classe usa . */
+.especial{
+    color: #fff;
+    font-size: 20px;
+}
+
+.planorosa{
+    background-color: pink;
+    text-transform: uppercase;
+}
+
+/*ID usa #*/
+#artigo2{
+    background-color: black;
+}
