@@ -35,6 +35,8 @@ header{
     align-items: center;
     justify-content: center;
     width: 100%;
+    position: fixed;
+
 }
 
 nav ul{
@@ -50,6 +52,12 @@ a{
     text-decoration: none;
     color: var(--texto);
     font-weight: bolder;
+}
+
+main{
+    position: relative;
+    top: 250px;
+    z-index: -1;
 }
 
 .boxProduto{
